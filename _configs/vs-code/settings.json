@@ -1,0 +1,24 @@
+{
+    "terminal.external.windowsExec": "C:\\_myR\\Utils\\Git\\git-bash.exe",
+    "terminal.integrated.defaultProfile.windows": "gitbash",
+    "csharp.referencesCodeLens.enabled": false,
+    "terminal.integrated.profiles.windows": {
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "gitbash": {
+        "path": "C:\\_myR\\Utils\\Git\\bin\\bash.exe",
+        "icon": "terminal-bash",
+        // "source": "Git Bash"
+      }
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "debug.onTaskErrors": "showErrors"
+}
