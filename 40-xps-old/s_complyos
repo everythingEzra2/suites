@@ -1,0 +1,46 @@
+#(cd /c/_repo/complyos/host; wsl code .)
+
+s_complyos_host
+# # Host
+# # CHANGING [/c/_repo/complyos/host] -> [/d/_docker/host_azure/host]
+# nohup rubymine64 /d/_docker/host_azure/host > /dev/null 2>&1&
+# (cd /d/_docker/host_azure/host; explorer .)
+# (cd /d/_docker/host_azure/host && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+# #start wsl -u root -- service mysql start
+# start wsl -u root -- service postgresql start
+# (cd /d/_docker/host_azure/host && start wsl) &
+
+s_complyos_client
+# # Client_WSL
+# code //wsl.localhost/Ubuntu/home/myr/_repo/client
+# (cd //wsl.localhost/Ubuntu/home/myr/_repo/client; explorer .)
+# (cd //wsl.localhost/Ubuntu/home/myr/_repo/client && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+# (cd //wsl.localhost/Ubuntu/home/myr/_repo/client && start wsl) &
+
+# # Client_OLD
+# code /c/_repo/complyos/client
+# (cd /c/_repo/complyos/client; explorer .)
+# (cd /c/_repo/complyos/client && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+# (cd /c/_repo/complyos/client && start wsl) &
+
+s_complyos_forms
+
+
+# MISC INSTRUCTIONS
+# echo "START_CLIENT: [in UBUNTU shell] REMOTE_ENV=local npm run live"
+# echo "START_DB:     [in UBUNTU shell] sudo service mysql start"
+# echo "TESTING:      [in UBUNTU shell] RAILS_ENV=test rake cos:test['user_generated_start_date']"
+
+# echo " "
+
+# echo "to kill: 	    [in UBUNTU shell]"
+# echo "ps -ef | grep puma"
+# echo "kill -9 {pid of puma host}"
+
+# echo " "
+
+# echo "MIGRATIONS:   [in UBUNTU shell]"
+# echo "Create:       RAILS_ENV=local rails generate migration yourNewMigrationNameHere"
+# echo "Run Migrtns:  RAILS_ENV=local rake db:migrate"
+
+cs_complyos

@@ -1,0 +1,5 @@
+# Client_WSL
+code //wsl.localhost/Ubuntu/home/myr/_repo/client
+(cd //wsl.localhost/Ubuntu/home/myr/_repo/client; explorer .)
+(cd //wsl.localhost/Ubuntu/home/myr/_repo/client && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+(cd //wsl.localhost/Ubuntu/home/myr/_repo/client && start wsl) &

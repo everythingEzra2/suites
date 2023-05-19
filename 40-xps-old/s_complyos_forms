@@ -1,0 +1,5 @@
+# Forms_WSL
+code /c/_repo/complyos/cos-forms
+(cd /c/_repo/complyos/cos-forms; explorer .)
+(cd /c/_repo/complyos/cos-forms && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+(cd /c/_repo/complyos/cos-forms && start wsl) &

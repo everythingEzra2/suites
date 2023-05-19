@@ -1,0 +1,8 @@
+# Host
+# CHANGING [/c/_repo/complyos/host] -> [/d/_docker/host_azure/host] -> [/c/_repo/complyos/cos-host]
+nohup rubymine64 /c/_repo/complyos/cos-host > /dev/null 2>&1&
+(cd /c/_repo/complyos/cos-host; explorer .)
+(cd /c/_repo/complyos/cos-host && start /c/Users/jsumm/Programs/Git/git-bash.exe) &
+#start wsl -u root -- service mysql start
+start wsl -u root -- service postgresql start
+(cd /c/_repo/complyos/cos-host && start wsl) &

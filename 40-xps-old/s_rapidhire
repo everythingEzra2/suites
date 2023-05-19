@@ -1,0 +1,9 @@
+code /c/_repo/rapidhire/RapidHireUI
+#C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE
+START visualstudio.lnk /c/_repo/rapidhire/RapidHireAPI/RecruiterCalculator.API.sln
+
+#API
+(cd /c/_repo/rapidhire/RapidHireAPI; explorer .)
+
+#UI
+(cd /c/_repo/rapidhire/RapidHireUI; explorer .)

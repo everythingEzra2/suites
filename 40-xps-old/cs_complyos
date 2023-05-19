@@ -1,0 +1,28 @@
+# MISC INSTRUCTIONS
+echo "START_CLIENT: [in UBUNTU shell] REMOTE_ENV=local npm run wp:tempstart"
+echo "START_DB:     [in UBUNTU shell] sudo service mysql start"
+echo "START_HOST:   [in UBUNTU shell] RAILS_ENV=local rails s"
+echo "TESTING:      [in UBUNTU shell] RAILS_ENV=test rake cos:test['user_generated_start_date']"
+echo "RAILS SHELL:  [in UBUNTU shell] RAILS_ENV=local rails c"
+
+echo " "
+
+echo "to kill: 	    [in UBUNTU shell]"
+echo "ps -ef | grep puma"
+echo "kill -9 {pid of puma host}"
+
+echo " "
+
+echo "MIGRATIONS:   [in UBUNTU shell]"
+echo "Create:       RAILS_ENV=local rails generate migration yourNewMigrationNameHere"
+echo "Run Migrtns:  RAILS_ENV=local rake db:migrate"
+echo "Undo Migrtns: RAILS_ENV=local rake db:rollback STEP=1"
+echo "mdm tasks:    RAILS_ENV=local rake mdm:c2216_example_mdm_task"
+
+echo " "
+
+echo "MIGRATIONS IN HIGHER ENVIRONMENTS      [in UBUNTU shell]"
+echo "login:        ssh cmp-stage-web1       or [qa] or [prod]"
+echo "switch user:  sudo -iu hcaopsadmin"
+echo "change dir:   cd /opt/host"
+echo "run:          source /opt/configs/host_vars.sh && rake db:migrate"

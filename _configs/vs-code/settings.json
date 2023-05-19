@@ -1,24 +1,37 @@
 {
-    "terminal.external.windowsExec": "C:\\_myR\\Utils\\Git\\git-bash.exe",
-    "terminal.integrated.defaultProfile.windows": "gitbash",
-    "csharp.referencesCodeLens.enabled": false,
-    "terminal.integrated.profiles.windows": {
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "gitbash": {
-        "path": "C:\\_myR\\Utils\\Git\\bin\\bash.exe",
-        "icon": "terminal-bash",
-        // "source": "Git Bash"
-      }
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "editor.minimap.enabled": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "debug.onTaskErrors": "showErrors"
+    "window.zoomLevel": 1,
+    "editor.codeLens": false,
+	"terminal.integrated.shell.windows": "C:\\Users\\jsumm\\Programs\\Git\\bin\\bash.exe",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.minimap.enabled": false,
+	"editor.formatOnPaste": true,
+	"vsicons.projectDetection.autoReload": true,
+	"workbench.iconTheme": "vscode-icons",
+	"breadcrumbs.enabled": true,
+	"html.format.wrapLineLength": 0,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"debug.onTaskErrors": "showErrors",
+	"explorer.confirmDragAndDrop": false,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.detectIndentation": false,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.welcomePage.hiddenCategories": [
+    "Setup",
+    "Beginner"
+],
+"editor.renderWhitespace": "none",
+"security.workspace.trust.untrustedFiles": "open",
+"[python]": {
+  "editor.formatOnType": true
+}
 }
